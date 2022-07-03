@@ -125,25 +125,3 @@ Deletes an book
     "status": 200
 }
 ```
-
-### GET `/warehouse`
-
-Lists all warehouses
-
-#### Response
-
-```json
-{
-  "warehouses": [
-    {
-      "id": 1,
-      "name": "RDU"
-    },
-    {
-      "id": 2,
-      "name": "JFK"
-    }
-  ],
-  "count": 2
-}
-```
